@@ -5,6 +5,7 @@ body{
 }
 .container{
 	background-color: #ddd;
+	
 }
 .container ul{
 	margin: 0;
@@ -24,4 +25,18 @@ body{
 
 .container ul li:hover{
 	background-color: #f1f1f1;
+}
+.row{
+	overflow: hidden;
+}
+
+.left{
+	float: left;
+	width: 400px;
+}
+.right{
+	
+}
+.row::after{
+	clear: both;
 }
