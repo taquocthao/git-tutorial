@@ -1,0 +1,27 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	background-color: #ddd;
+}
+.container ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.container ul li{
+	float: left;
+	display: block;
+	padding: 12px 15px;
+}
+
+.container ul li a{
+	text-decoration: none;
+	
+}
+
+.container ul li:hover{
+	background-color: #f1f1f1;
+}
